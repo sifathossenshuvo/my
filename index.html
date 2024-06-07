@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- manrop font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'gradient-start': '#FF8938',
+                        'gradient-end': '#F00',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-manrope">
+    <header>
+
+        <div class="navbar bg-orange-200 mt-5">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+
+                        <ul class="p-2 text-black">
+                            <ul class="menu bg-base-200 rounded-box">
+                                <li>
+                                    <a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <a class="btn btn-primary btn-ghost text-xl ">Eid <span class="text-orange-400">al</span>-Adha</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li> <a href="index.html">Home</a></li> 
+                    <li>
+                        <details>
+                            <summary>About</summary>
+                            <ul class="p-2">
+                                <ul class="menu bg-base-200 rounded-box">
+                                    <li>
+                                        <a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </details>
+                    </li>
+                  <li> <a href="what.html">Blog</a></li> 
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a
+                  href="what.html"  class="btn btn-primary text-white bg-gradient-to-r lg:px-10 from-gradient-start to-gradient-end border-none">Explore</a>
+            </div>
+
+        </div>
+
+        <!-- banner -->
+        <div class="">
+            <div class="hero min-h-screen "
+                style="background-image: url(img/free-photo-ramadan-kareem-eid-mubarak-royal-elegant-lamp-with-mosque-holy-gate-with-fireworks.jpg);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Eid Mubarak</h1>
+                        <p class="mb-5">There are two key Eid’s (Celebration Festivals) in Islam: Eid-ul-Fitr, which
+                            signifies the completion of the Holy Month of Ramadan; and Eid-ul-Adha, the greater Eid,
+                            which follows the completion of the annual Hajj pilgrimage, at the time of Qurbani
+                            (sacrifice).</p>
+                        <button
+                        
+                            class="btn btn-primary bg-gradient-to-r from-gradient-start to-gradient-end border-none px-10"> <a href="https://www.facebook.com/groups/3864974463610222">See
+                            now </a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- upcoming section -->
+        <section class="bg-slate-200 mt-8 py-10">
+            <div class="text-center mt-5">
+                <h1 class="font-bold text-4xl">Upcoming day</h1>
+                <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam velit <br>
+                    consequuntur eos fugiat,
+                    saepe ullam itaque mollitia quidem optio doloremque?</p>
+
+            </div>
+            <!-- timer -->
+            <div class="grid grid-flow-col gap-11 flex justify-center mt-8 auto-cols-max ">
+                <div class="text-center flex flex-col lg:p-10 bg-neutral rounded-box text-neutral-content">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:10;"></span>
+                    </span>
+                    days
+                </div>
+                <div class="text-center flex flex-col lg:p-10 bg-neutral rounded-box text-neutral-content">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:10;"></span>
+                    </span>
+                    hours
+                </div>
+                <div class="text-center flex flex-col lg:p-10 bg-neutral rounded-box text-neutral-content">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:24;"></span>
+                    </span>
+                    min
+                </div>
+                <div class="text-center flex flex-col lg:p-10 bg-neutral rounded-box text-neutral-content">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:25;"></span>
+                    </span>
+                    sec
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-slate-200 mt-1">
+
+            <div class="py-12 ">
+                <h1 class="mb-10 text-5xl font-bold text-gray-500 text-center">People choose some cow for <br> Eid-ul-Adha</h1>
+                <div class="px-16 flex justify-center gap-8">
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img class="h-[200px] w-[200px] rounded-xl" src="img/cow1.jpg" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">choose-1</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <div class="card-actions">
+                                <button class="btn btn-primary">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img class="h-[200px] w-[200px] rounded-xl" src="img/cow2.jpg" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">choose-2</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <div class="card-actions">
+                                <button class="btn btn-primary">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img class="h-[200px] w-[200px] rounded-xl" src="img/cow3.jpg" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">choose-3</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <div class="card-actions">
+                                <button class="btn btn-primary">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img class="h-[200px] w-[200px] rounded-xl" src="img/cow4.jpg" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">choose-4</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <div class="card-actions">
+                                <button class="btn btn-primary">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- what is section -->
+        <section class="bg-slate-200 mt-1 py-12">
+            <div>
+                <h1 class="text-5xl font-bold text-center mb-10">What is Eid-ul-Adha?</h1>
+            <div class="w-[900px] text-center ml-[500px]">
+                <p class="">Eid al-Adha, or the Feast of Sacrifice, is a major holiday celebrated by Muslims worldwide for three to
+                    four days. Most Muslims will attend the special prayers held at major mosques and Islamic centers in the
+                    United States and throughout the world. Muslims usually wear new clothes and some exchange gifts.
+                    Children take a day off from school (including college students), and many adults do not go to work.
+                    When asked about the origin of Eid al-Adha, The Prophet of Islam, Muhammad, is reported to have said,
+                    “It is a tradition that has come down to us from Abraham.” The Feast of Sacrifice originates from the
+                    historic event when Prophet Abraham was commanded by God in a dream vision to sacrifice his son,
+                    Ishmail. While he was in the act of sacrificing his son, God sent the Angel Gabriel with a huge ram.
+                    Gabriel informed Abraham that his dream vision was fulfilled and instructed him to sacrifice the ram as
+                    a ransom for his son. The story is mentioned in Chapter #37 of the Holy Qur'an. Eid al-Adha enjoys
+                    special significance because the Day of Sacrifice marks the climax of Hajj or Pilgrimage, the fifth
+                    pillar of Islam. This annual pilgrimage to Makkah and Madinah in Saudi Arabia is an obligation only for
+                    those men and women who are physically and financially able to perform it once in their lifetime.</p>
+    
+            </div>
+            </div>
+        </section>
+    </main>
+    
+        <footer class="footer p-10 bg-base-200 text-base-content">
+            <nav class="ml-24">
+              <h6 class="footer-title">Services</h6> 
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </nav> 
+            <nav>
+              <h6 class="footer-title">Company</h6> 
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </nav> 
+            <nav>
+              <h6 class="footer-title">Legal</h6> 
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+            </nav> 
+            <form>
+              <h6 class="footer-title">Newsletter</h6> 
+              <fieldset class="form-control w-80">
+                <label class="label">
+                  <span class="label-text">Enter your email address</span>
+                </label> 
+                <div class="join">
+                  <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+                  <button class="btn btn-primary join-item">Subscribe</button>
+                </div>
+              </fieldset>
+            </form>
+          
+    </footer>
+</body>
+
+</html>
